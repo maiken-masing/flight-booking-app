@@ -1,0 +1,2360 @@
+[
+  {
+    "id": 1,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "A"
+    },
+    "type": [
+      "window",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 2,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "B"
+    },
+    "type": [
+      "middle",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 3,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "C"
+    },
+    "type": [
+      "aisle",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 4,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "D"
+    },
+    "type": [
+      "aisle",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 5,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "E"
+    },
+    "type": [
+      "middle",
+      "extra_legroom"
+    ],
+    "status": "occupied",
+    "exit_proximity": 7
+  },
+  {
+    "id": 6,
+    "flight_id": 6,
+    "location": {
+      "row": 1,
+      "column": "F"
+    },
+    "type": [
+      "aisle",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 7,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 8,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 6
+  },
+  {
+    "id": 9,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 10,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 6
+  },
+  {
+    "id": 11,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 12,
+    "flight_id": 6,
+    "location": {
+      "row": 2,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 6
+  },
+  {
+    "id": 13,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 14,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 15,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 16,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 17,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 18,
+    "flight_id": 6,
+    "location": {
+      "row": 3,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 19,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 20,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 4
+  },
+  {
+    "id": 21,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 4
+  },
+  {
+    "id": 22,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 23,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 24,
+    "flight_id": 6,
+    "location": {
+      "row": 4,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 25,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 26,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 27,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 28,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 3
+  },
+  {
+    "id": 29,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 30,
+    "flight_id": 6,
+    "location": {
+      "row": 5,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 31,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 2
+  },
+  {
+    "id": 32,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 33,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 34,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 35,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 36,
+    "flight_id": 6,
+    "location": {
+      "row": 6,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 2
+  },
+  {
+    "id": 37,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 38,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 39,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 40,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 41,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 42,
+    "flight_id": 6,
+    "location": {
+      "row": 7,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 43,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "A"
+    },
+    "type": [
+      "window",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 0
+  },
+  {
+    "id": 44,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "B"
+    },
+    "type": [
+      "middle",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "occupied",
+    "exit_proximity": 0
+  },
+  {
+    "id": 45,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "C"
+    },
+    "type": [
+      "aisle",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 0
+  },
+  {
+    "id": 46,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "D"
+    },
+    "type": [
+      "aisle",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 0
+  },
+  {
+    "id": 47,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "E"
+    },
+    "type": [
+      "middle",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 0
+  },
+  {
+    "id": 48,
+    "flight_id": 6,
+    "location": {
+      "row": 8,
+      "column": "F"
+    },
+    "type": [
+      "aisle",
+      "exit_row",
+      "extra_legroom"
+    ],
+    "status": "available",
+    "exit_proximity": 0
+  },
+  {
+    "id": 49,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 50,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 1
+  },
+  {
+    "id": 51,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 52,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 53,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 54,
+    "flight_id": 6,
+    "location": {
+      "row": 9,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 1
+  },
+  {
+    "id": 55,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 56,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 57,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 58,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 2
+  },
+  {
+    "id": 59,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 60,
+    "flight_id": 6,
+    "location": {
+      "row": 10,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 2
+  },
+  {
+    "id": 61,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 62,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 63,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 64,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 65,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 3
+  },
+  {
+    "id": 66,
+    "flight_id": 6,
+    "location": {
+      "row": 11,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 3
+  },
+  {
+    "id": 67,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 68,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 4
+  },
+  {
+    "id": 69,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 4
+  },
+  {
+    "id": 70,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 71,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 4
+  },
+  {
+    "id": 72,
+    "flight_id": 6,
+    "location": {
+      "row": 12,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 4
+  },
+  {
+    "id": 73,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 74,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 75,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 76,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 5
+  },
+  {
+    "id": 77,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 78,
+    "flight_id": 6,
+    "location": {
+      "row": 13,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 5
+  },
+  {
+    "id": 79,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 80,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 81,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 82,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 83,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 84,
+    "flight_id": 6,
+    "location": {
+      "row": 14,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 6
+  },
+  {
+    "id": 85,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 86,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 7
+  },
+  {
+    "id": 87,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 88,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 89,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 90,
+    "flight_id": 6,
+    "location": {
+      "row": 15,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 7
+  },
+  {
+    "id": 91,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 8
+  },
+  {
+    "id": 92,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 8
+  },
+  {
+    "id": 93,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 8
+  },
+  {
+    "id": 94,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 8
+  },
+  {
+    "id": 95,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 8
+  },
+  {
+    "id": 96,
+    "flight_id": 6,
+    "location": {
+      "row": 16,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 8
+  },
+  {
+    "id": 97,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 9
+  },
+  {
+    "id": 98,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 9
+  },
+  {
+    "id": 99,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 9
+  },
+  {
+    "id": 100,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 9
+  },
+  {
+    "id": 101,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 9
+  },
+  {
+    "id": 102,
+    "flight_id": 6,
+    "location": {
+      "row": 17,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 9
+  },
+  {
+    "id": 103,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 10
+  },
+  {
+    "id": 104,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 10
+  },
+  {
+    "id": 105,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 10
+  },
+  {
+    "id": 106,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 10
+  },
+  {
+    "id": 107,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 10
+  },
+  {
+    "id": 108,
+    "flight_id": 6,
+    "location": {
+      "row": 18,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 10
+  },
+  {
+    "id": 109,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 11
+  },
+  {
+    "id": 110,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 11
+  },
+  {
+    "id": 111,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 11
+  },
+  {
+    "id": 112,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 11
+  },
+  {
+    "id": 113,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 11
+  },
+  {
+    "id": 114,
+    "flight_id": 6,
+    "location": {
+      "row": 19,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 11
+  },
+  {
+    "id": 115,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 12
+  },
+  {
+    "id": 116,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 12
+  },
+  {
+    "id": 117,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 12
+  },
+  {
+    "id": 118,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 12
+  },
+  {
+    "id": 119,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 12
+  },
+  {
+    "id": 120,
+    "flight_id": 6,
+    "location": {
+      "row": 20,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 12
+  },
+  {
+    "id": 121,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 13
+  },
+  {
+    "id": 122,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 13
+  },
+  {
+    "id": 123,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 13
+  },
+  {
+    "id": 124,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 13
+  },
+  {
+    "id": 125,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 13
+  },
+  {
+    "id": 126,
+    "flight_id": 6,
+    "location": {
+      "row": 21,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 13
+  },
+  {
+    "id": 127,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 14
+  },
+  {
+    "id": 128,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 14
+  },
+  {
+    "id": 129,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 14
+  },
+  {
+    "id": 130,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 14
+  },
+  {
+    "id": 131,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 14
+  },
+  {
+    "id": 132,
+    "flight_id": 6,
+    "location": {
+      "row": 22,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 14
+  },
+  {
+    "id": 133,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 15
+  },
+  {
+    "id": 134,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 15
+  },
+  {
+    "id": 135,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 15
+  },
+  {
+    "id": 136,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 15
+  },
+  {
+    "id": 137,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 15
+  },
+  {
+    "id": 138,
+    "flight_id": 6,
+    "location": {
+      "row": 23,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 15
+  },
+  {
+    "id": 139,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 16
+  },
+  {
+    "id": 140,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 16
+  },
+  {
+    "id": 141,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 16
+  },
+  {
+    "id": 142,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 16
+  },
+  {
+    "id": 143,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 16
+  },
+  {
+    "id": 144,
+    "flight_id": 6,
+    "location": {
+      "row": 24,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 16
+  },
+  {
+    "id": 145,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 17
+  },
+  {
+    "id": 146,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 17
+  },
+  {
+    "id": 147,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 17
+  },
+  {
+    "id": 148,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 17
+  },
+  {
+    "id": 149,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 17
+  },
+  {
+    "id": 150,
+    "flight_id": 6,
+    "location": {
+      "row": 25,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 17
+  },
+  {
+    "id": 151,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 18
+  },
+  {
+    "id": 152,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 18
+  },
+  {
+    "id": 153,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 18
+  },
+  {
+    "id": 154,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 18
+  },
+  {
+    "id": 155,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 18
+  },
+  {
+    "id": 156,
+    "flight_id": 6,
+    "location": {
+      "row": 26,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 18
+  },
+  {
+    "id": 157,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "occupied",
+    "exit_proximity": 19
+  },
+  {
+    "id": 158,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 19
+  },
+  {
+    "id": 159,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 19
+  },
+  {
+    "id": 160,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 19
+  },
+  {
+    "id": 161,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 19
+  },
+  {
+    "id": 162,
+    "flight_id": 6,
+    "location": {
+      "row": 27,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 19
+  },
+  {
+    "id": 163,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 20
+  },
+  {
+    "id": 164,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 20
+  },
+  {
+    "id": 165,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 20
+  },
+  {
+    "id": 166,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 20
+  },
+  {
+    "id": 167,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 20
+  },
+  {
+    "id": 168,
+    "flight_id": 6,
+    "location": {
+      "row": 28,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 20
+  },
+  {
+    "id": 169,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 21
+  },
+  {
+    "id": 170,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 21
+  },
+  {
+    "id": 171,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 21
+  },
+  {
+    "id": 172,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 21
+  },
+  {
+    "id": 173,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 21
+  },
+  {
+    "id": 174,
+    "flight_id": 6,
+    "location": {
+      "row": 29,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 21
+  },
+  {
+    "id": 175,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "A"
+    },
+    "type": [
+      "window"
+    ],
+    "status": "available",
+    "exit_proximity": 22
+  },
+  {
+    "id": 176,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "B"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 22
+  },
+  {
+    "id": 177,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "C"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 22
+  },
+  {
+    "id": 178,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "D"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "occupied",
+    "exit_proximity": 22
+  },
+  {
+    "id": 179,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "E"
+    },
+    "type": [
+      "middle"
+    ],
+    "status": "available",
+    "exit_proximity": 22
+  },
+  {
+    "id": 180,
+    "flight_id": 6,
+    "location": {
+      "row": 30,
+      "column": "F"
+    },
+    "type": [
+      "aisle"
+    ],
+    "status": "available",
+    "exit_proximity": 22
+  }
+]

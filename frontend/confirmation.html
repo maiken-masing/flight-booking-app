@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation - Flight Booking Application</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .confirmation-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .confirmation-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .confirmation-header h2 {
+            color: #2c3e50;
+        }
+        
+        .confirmation-icon {
+            font-size: 4rem;
+            color: #27ae60;
+            margin-bottom: 1rem;
+        }
+        
+        .booking-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .detail-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .detail-card h3 {
+            margin-top: 0;
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        
+        .seat-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .seat-list li {
+            background-color: #f1f8ff;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .btn-secondary {
+            background-color: #95a5a6;
+            color: white;
+        }
+        
+        .btn:hover {
+            opacity: 0.9;
+        }
+        
+        @media print {
+            .actions {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flight Planning Application</h1>
+    </header>
+
+    <main>
+        <div class="confirmation-container">
+            <div class="confirmation-header">
+                <div class="confirmation-icon">✓</div>
+                <h2>Booking Confirmed!</h2>
+                <p>Your flight and seat selection has been successfully confirmed. Below are your booking details.</p>
+            </div>
+            
+            <div class="booking-details">
+                <div class="detail-card">
+                    <h3>Flight Information</h3>
+                    <div class="detail-item">
+                        <span class="detail-label">Flight Number:</span>
+                        <span id="flight-number">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">From:</span>
+                        <span id="flight-origin">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">To:</span>
+                        <span id="flight-destination">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Departure:</span>
+                        <span id="flight-departure">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Arrival:</span>
+                        <span id="flight-arrival">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Aircraft:</span>
+                        <span id="flight-aircraft">--</span>
+                    </div>
+                </div>
+                
+                <div class="detail-card">
+                    <h3>Seat Information</h3>
+                    <p>Selected seats:</p>
+                    <ul class="seat-list" id="seat-list">
+                        <!-- Seat information will be populated dynamically -->
+                    </ul>
+                    <div class="detail-item">
+                        <span class="detail-label">Total Price:</span>
+                        <span id="total-price">--</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-card">
+                <h3>Passenger Information</h3>
+                <p>Please remember to arrive at the airport at least 2 hours before your scheduled departure time. Don't forget to bring your ID or passport for identification.</p>
+                <p>Your e-ticket has been sent to your email address. You can use it to check in online 24 hours before your flight.</p>
+            </div>
+            
+            <div class="actions">
+                <button class="btn btn-primary" id="print-button">Print Confirmation</button>
+                <button class="btn btn-secondary" id="home-button">Return to Home</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Flight Planning Application</p>
+    </footer>
+
+    <script src="js/confirmation.js"></script>
+</body>
+</html>
