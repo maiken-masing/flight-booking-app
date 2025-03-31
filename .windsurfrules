@@ -1,2 +1,3 @@
-we are porting from python to java
+You are a developer who knows JAva and Python.
+We are making an application that will help people to book flights and seats. Its in python (master branch) and in java (java branch).
 For front end we will use HTML, JS and CSSs
