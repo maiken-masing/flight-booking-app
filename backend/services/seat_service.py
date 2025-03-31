@@ -41,6 +41,7 @@ async def get_seat_recommendations(flight_id: int, preferences: SeatPreference) 
     
     seat_scores.sort(key=lambda x: x[1], reverse=True)
     
+    # Handle group bookings with adjacent seats requirement
     if preferences.passenger_count > 1 and preferences.adjacent_seats:
         adjacent_recommendations = find_adjacent_seats(all_seats, seat_scores, preferences)
         if hasattr(preferences, 'limit') and preferences.limit > 3:
@@ -88,6 +89,7 @@ def find_adjacent_seats(all_seats: List[Seat], scored_seats: List[Tuple[Seat, fl
     available_seats = [seat for seat, _ in scored_seats]
     available_seats.sort(key=lambda s: (s.location.row, s.location.column))
     
+    # Group adjacent seats by row
     current_row = None
     current_group = []
     
@@ -111,6 +113,7 @@ def find_adjacent_seats(all_seats: List[Seat], scored_seats: List[Tuple[Seat, fl
     if len(current_group) >= preferences.passenger_count:
         seat_groups.append(current_group)
     
+    # Score the seat groups
     group_scores = []
     for group in seat_groups:
         selected_group = group[:preferences.passenger_count]
@@ -194,45 +197,55 @@ def generate_seats_for_flight(flight_id: int) -> List[Seat]:
     aircraft_type = aircraft_types[flight_id % len(aircraft_types)]
     
     if aircraft_type in ["A320", "B737"]:
-        rows = range(1, 31)  
-        columns = ["A", "B", "C", "D", "E", "F"]  
-        exit_rows = [1, 16]  
+        rows = range(1, 31)
+        columns = ["A", "B", "C", "D", "E", "F"]
+        exit_rows = [1, 16]
     elif aircraft_type in ["A330", "B777"]:
-        rows = range(1, 41)  
-        columns = ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K"]  
-        exit_rows = [1, 15, 30]  
-    else:
-        rows = range(1, 21)  
-        columns = ["A", "B", "C", "D"]  
-        exit_rows = [1, 10]  
+        rows = range(1, 41)
+        columns = ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K"]
+        exit_rows = [1, 15, 30]
+    else:  
+        rows = range(1, 21)
+        columns = ["A", "B", "C", "D"]
+        exit_rows = [1, 10]
+    
+    seat_id = 1
     
     for row in rows:
         for col in columns:
             seat_types = []
             
-            if col in ["A", "K"] or (col in ["A", "D"] and len(columns) == 4):
+            if col in ["A", "F"] or (aircraft_type in ["A330", "B777"] and col in ["A", "J"]) or (columns == ["A", "B", "C", "D"] and col in ["A", "D"]):
                 seat_types.append(SeatType.WINDOW)
-            
-            if col in ["C", "D", "G", "H"] or (col in ["B", "C"] and len(columns) == 4):
+            elif col in ["C", "D"] or (aircraft_type in ["A330", "B777"] and col in ["C", "G"]) or (columns == ["A", "B", "C", "D"] and col in ["B", "C"]):
+                seat_types.append(SeatType.MIDDLE)
+            else:
                 seat_types.append(SeatType.AISLE)
             
             if row in exit_rows:
                 seat_types.append(SeatType.EXIT_ROW)
-            
-            if row < 4 or row in exit_rows:
+                
+            if row <= 3:  
                 seat_types.append(SeatType.EXTRA_LEGROOM)
-            
+                
             exit_proximity = min([abs(row - exit_row) for exit_row in exit_rows])
             
             seat = Seat(
-                id=f"{flight_id}-{row}{col}",
+                id=seat_id,
                 flight_id=flight_id,
                 location=SeatLocation(row=row, column=col),
                 type=seat_types,
-                status=SeatStatus.AVAILABLE if random.random() > 0.3 else SeatStatus.OCCUPIED,
+                status=SeatStatus.AVAILABLE,
                 exit_proximity=exit_proximity
             )
             
             seats.append(seat)
+            seat_id += 1
+    
+    # Randomly mark ~10% of seats as occupied
+    occupied_count = len(seats) // 10
+    for _ in range(occupied_count):
+        random_index = random.randint(0, len(seats) - 1)
+        seats[random_index].status = SeatStatus.OCCUPIED
     
     return seats

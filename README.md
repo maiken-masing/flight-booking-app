@@ -12,7 +12,7 @@ A web application for flight planning and seat recommendations.
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python with FastAPI (with plans to migrate to Spring Boot with Java LTS)
+- **Backend**: Python with FastAPI
 - **Version Control**: Git
 
 ## Project Structure
@@ -28,5 +28,5 @@ A web application for flight planning and seat recommendations.
 
 1. Clone this repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the backend server: `uvicorn app:app --reload`
+3. Run the backend server: `uvicorn backend.app:app --reload`
 4. Open the frontend in your browser
